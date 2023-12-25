@@ -6,6 +6,7 @@ import { SocialMediaComponent } from './components/social-media'
 import { Box, Typography, createTheme } from '@mui/material'
 import { DescriptionCards } from './components/description.cards'
 import Head from 'next/head'
+import { PricingSection } from './components/pricing.section'
 
 export default function Home() {
   const theme = createTheme({
@@ -34,7 +35,7 @@ export default function Home() {
         <HomeHeader/> 
         <SocialMediaComponent/>
       </main>
-      <Box className="min-h-screen w-screen pt-12 bg-indigo-900">
+      <Box className="min-h-screen w-screen pt-12 bg-gradient-to-t from-purple-300 to-pink-200">
         <Box className="w-full flex flex-row items-center justify-center mt-8">
           <Typography style={{textAlign: 'center', fontFamily: "Arial"}} variant='h6' className='text-white'>
           The immeasurable <span className='text-yellow-400'>secret of over 2,000,000</span> creators and businesses.
@@ -43,7 +44,9 @@ export default function Home() {
 
         <DescriptionCards/>
 
+      <PricingSection />
       </Box>
+
     </Box>
   )
 }

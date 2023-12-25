@@ -18,11 +18,11 @@ export const DescriptionCards = ()=>{
 
     return (
             <Container className="mt-20" maxWidth="md">
-            <Typography className="text-2xl text-center font-bold text-white mb-3">
+            <Typography className="text-3xl text-center font-bold text-indigo-400 mb-3">
                 All-in-One
             </Typography>
             <Typography
-            className="text-4xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-amber-500 mb-15"
+            className="text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600"
             variant="h1"
             style={{fontFamily: "Arial"}}
             >
